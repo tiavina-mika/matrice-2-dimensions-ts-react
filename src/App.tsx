@@ -38,9 +38,11 @@ const App = () => {
           {(images as any).map((row: Image[], i: number) => (
             <div key={i} className="col">
               {row.map((col: Image, k: number) => (
-                col && <div key={k} className="cell">
-                  <img alt="" src={col.image} />
-                </div>
+                col && (
+                  <div key={k} className="cell">
+                    <img alt="" src={col.image} />
+                  </div>
+                )
               ))}
             </div>
           ))}
