@@ -29,3 +29,15 @@ img {
   object-fit: cover;
   height: 200px;
 }
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.link {
+  color: #169606;
+  letter-spacing: 0.5px;
+  margin-left: 2px;
+}

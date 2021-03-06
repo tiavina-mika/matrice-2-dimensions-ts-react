@@ -32,7 +32,7 @@ const App = () => {
   }, [])
   return (
     <div className="App">
-      <h1>Create 2 dimension Matrice</h1>
+      <h1>Create 2 dimensions Matrice</h1>
       <div className="images">
         <div className="row">
           {(images as any).map((row: Image[], i: number) => (
@@ -51,7 +51,7 @@ const App = () => {
 
       <div className="footer">
         <span>By</span>
-        <a href="/" className="link">
+        <a href="https://www.linkedin.com/in/tiavina-michael-ralainirina/" className="link">
           Tiavina Michael Ralainirina
         </a>
       </div>
